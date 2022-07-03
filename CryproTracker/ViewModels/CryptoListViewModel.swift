@@ -30,15 +30,4 @@ class CryptoListViewModel: ObservableObject {
         }
         
     }
-    
-    //find and show it
-    func showSekCurrency(item: CryptoViewModel) {
-        if let row = self.cryptoList.firstIndex(where: {$0.baseAsset == item.baseAsset}) {
-            self.cryptoList[row].toShowSekPrice = true
-            print("Sondurum \(self.cryptoList)")
-        }
-        print("Sondurum \(self.cryptoList)")
-        print("Sondurum1 \(item)")
-
-    }
 }
