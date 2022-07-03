@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0DEDE42870F49B0051F72E /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DEDE32870F49B0051F72E /* NetworkMonitor.swift */; };
+		2A0DEDE62870F5A90051F72E /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0DEDE52870F5A90051F72E /* CustomProgressView.swift */; };
+		2A843B05286E5994006D12AC /* CryptoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A843B04286E5994006D12AC /* CryptoResponse.swift */; };
+		2A843B07286E5B4B006D12AC /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A843B06286E5B4B006D12AC /* CryptoViewModel.swift */; };
+		2A843B09286E5B57006D12AC /* CryptoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A843B08286E5B57006D12AC /* CryptoListViewModel.swift */; };
+		2A8716C4286E0C1F00109FA5 /* CryproTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8716C3286E0C1F00109FA5 /* CryproTrackerApp.swift */; };
+		2A8716C6286E0C1F00109FA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8716C5286E0C1F00109FA5 /* ContentView.swift */; };
+		2A8716C8286E0C2100109FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8716C7286E0C2100109FA5 /* Assets.xcassets */; };
+		2A8716CB286E0C2100109FA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8716CA286E0C2100109FA5 /* Preview Assets.xcassets */; };
+		2A8716CD286E0C2100109FA5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8716CC286E0C2100109FA5 /* Persistence.swift */; };
+		2A8716D0286E0C2100109FA5 /* CryproTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A8716CE286E0C2100109FA5 /* CryproTracker.xcdatamodeld */; };
+		2A8716DA286E0C2200109FA5 /* CryproTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8716D9286E0C2200109FA5 /* CryproTrackerTests.swift */; };
+		2A8716E4286E0C2200109FA5 /* CryproTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8716E3286E0C2200109FA5 /* CryproTrackerUITests.swift */; };
+		2A8716E6286E0C2200109FA5 /* CryproTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8716E5286E0C2200109FA5 /* CryproTrackerUITestsLaunchTests.swift */; };
+		2A8716FB286E0DD800109FA5 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8716FA286E0DD800109FA5 /* CryptoService.swift */; };
+		2A985857287242C500D730F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A985856287242C500D730F8 /* Constants.swift */; };
+		2AA3C1D2286F908E00058ED1 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3C1D1286F908E00058ED1 /* Color+Extensions.swift */; };
+		2AA3C1D4286F93FC00058ED1 /* NeurographicShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3C1D3286F93FC00058ED1 /* NeurographicShadow.swift */; };
+		2AA3C1D6286F950300058ED1 /* CryptoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3C1D5286F950300058ED1 /* CryptoCell.swift */; };
+		2AA3C1D8286FAF8700058ED1 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3C1D7286FAF8700058ED1 /* PriceView.swift */; };
+		2AA3C1DA286FB35800058ED1 /* CryptoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3C1D9286FB35800058ED1 /* CryptoListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A8716D6286E0C2200109FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A8716B8286E0C1F00109FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A8716BF286E0C1F00109FA5;
+			remoteInfo = CryproTracker;
+		};
+		2A8716E0286E0C2200109FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A8716B8286E0C1F00109FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A8716BF286E0C1F00109FA5;
+			remoteInfo = CryproTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A0DEDE32870F49B0051F72E /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		2A0DEDE52870F5A90051F72E /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		2A843B04286E5994006D12AC /* CryptoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoResponse.swift; sourceTree = "<group>"; };
+		2A843B06286E5B4B006D12AC /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		2A843B08286E5B57006D12AC /* CryptoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewModel.swift; sourceTree = "<group>"; };
+		2A8716C0286E0C1F00109FA5 /* CryproTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryproTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8716C3286E0C1F00109FA5 /* CryproTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryproTrackerApp.swift; sourceTree = "<group>"; };
+		2A8716C5286E0C1F00109FA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A8716C7286E0C2100109FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A8716CA286E0C2100109FA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A8716CC286E0C2100109FA5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2A8716CF286E0C2100109FA5 /* CryproTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CryproTracker.xcdatamodel; sourceTree = "<group>"; };
+		2A8716D5286E0C2200109FA5 /* CryproTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryproTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8716D9286E0C2200109FA5 /* CryproTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryproTrackerTests.swift; sourceTree = "<group>"; };
+		2A8716DF286E0C2200109FA5 /* CryproTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryproTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A8716E3286E0C2200109FA5 /* CryproTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryproTrackerUITests.swift; sourceTree = "<group>"; };
+		2A8716E5286E0C2200109FA5 /* CryproTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryproTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A8716FA286E0DD800109FA5 /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		2A985856287242C500D730F8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2A98585828725C3B00D730F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2AA3C1D1286F908E00058ED1 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		2AA3C1D3286F93FC00058ED1 /* NeurographicShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurographicShadow.swift; sourceTree = "<group>"; };
+		2AA3C1D5286F950300058ED1 /* CryptoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCell.swift; sourceTree = "<group>"; };
+		2AA3C1D7286FAF8700058ED1 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
+		2AA3C1D9286FB35800058ED1 /* CryptoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A8716BD286E0C1F00109FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8716D2286E0C2200109FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8716DC286E0C2200109FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A0DEDE12870F46B0051F72E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2A0DEDE22870F4770051F72E /* items */,
+				2A0DEDE32870F49B0051F72E /* NetworkMonitor.swift */,
+				2A985856287242C500D730F8 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2A0DEDE22870F4770051F72E /* items */ = {
+			isa = PBXGroup;
+			children = (
+				2A0DEDE52870F5A90051F72E /* CustomProgressView.swift */,
+			);
+			path = items;
+			sourceTree = "<group>";
+		};
+		2A8716B7286E0C1F00109FA5 = {
+			isa = PBXGroup;
+			children = (
+				2A8716C2286E0C1F00109FA5 /* CryproTracker */,
+				2A8716D8286E0C2200109FA5 /* CryproTrackerTests */,
+				2A8716E2286E0C2200109FA5 /* CryproTrackerUITests */,
+				2A8716C1286E0C1F00109FA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A8716C1286E0C1F00109FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A8716C0286E0C1F00109FA5 /* CryproTracker.app */,
+				2A8716D5286E0C2200109FA5 /* CryproTrackerTests.xctest */,
+				2A8716DF286E0C2200109FA5 /* CryproTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A8716C2286E0C1F00109FA5 /* CryproTracker */ = {
+			isa = PBXGroup;
+			children = (
+				2A98585828725C3B00D730F8 /* Info.plist */,
+				2A0DEDE12870F46B0051F72E /* Utils */,
+				2A8716F9286E0D9A00109FA5 /* Controls */,
+				2A8716F8286E0D9100109FA5 /* Extensions */,
+				2A8716F7286E0D8400109FA5 /* Services */,
+				2A8716F6286E0CDC00109FA5 /* ViewModels */,
+				2A8716F5286E0CD400109FA5 /* Views */,
+				2A8716F4286E0CC800109FA5 /* Models */,
+				2A8716F3286E0CB800109FA5 /* DBManager */,
+				2A8716F2286E0C9D00109FA5 /* App */,
+				2A8716C9286E0C2100109FA5 /* Preview Content */,
+			);
+			path = CryproTracker;
+			sourceTree = "<group>";
+		};
+		2A8716C9286E0C2100109FA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A8716CA286E0C2100109FA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A8716D8286E0C2200109FA5 /* CryproTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A8716D9286E0C2200109FA5 /* CryproTrackerTests.swift */,
+			);
+			path = CryproTrackerTests;
+			sourceTree = "<group>";
+		};
+		2A8716E2286E0C2200109FA5 /* CryproTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A8716E3286E0C2200109FA5 /* CryproTrackerUITests.swift */,
+				2A8716E5286E0C2200109FA5 /* CryproTrackerUITestsLaunchTests.swift */,
+			);
+			path = CryproTrackerUITests;
+			sourceTree = "<group>";
+		};
+		2A8716F2286E0C9D00109FA5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2A8716CE286E0C2100109FA5 /* CryproTracker.xcdatamodeld */,
+				2A8716C3286E0C1F00109FA5 /* CryproTrackerApp.swift */,
+				2A8716C5286E0C1F00109FA5 /* ContentView.swift */,
+				2A8716C7286E0C2100109FA5 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2A8716F3286E0CB800109FA5 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				2A8716CC286E0C2100109FA5 /* Persistence.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		2A8716F4286E0CC800109FA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A843B04286E5994006D12AC /* CryptoResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A8716F5286E0CD400109FA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2AA3C1D5286F950300058ED1 /* CryptoCell.swift */,
+				2AA3C1D7286FAF8700058ED1 /* PriceView.swift */,
+				2AA3C1D9286FB35800058ED1 /* CryptoListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A8716F6286E0CDC00109FA5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2A843B06286E5B4B006D12AC /* CryptoViewModel.swift */,
+				2A843B08286E5B57006D12AC /* CryptoListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2A8716F7286E0D8400109FA5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2A8716FA286E0DD800109FA5 /* CryptoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2A8716F8286E0D9100109FA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2AA3C1D1286F908E00058ED1 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A8716F9286E0D9A00109FA5 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				2AA3C1D3286F93FC00058ED1 /* NeurographicShadow.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A8716BF286E0C1F00109FA5 /* CryproTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8716E9286E0C2200109FA5 /* Build configuration list for PBXNativeTarget "CryproTracker" */;
+			buildPhases = (
+				2A8716BC286E0C1F00109FA5 /* Sources */,
+				2A8716BD286E0C1F00109FA5 /* Frameworks */,
+				2A8716BE286E0C1F00109FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryproTracker;
+			productName = CryproTracker;
+			productReference = 2A8716C0286E0C1F00109FA5 /* CryproTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A8716D4286E0C2200109FA5 /* CryproTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8716EC286E0C2200109FA5 /* Build configuration list for PBXNativeTarget "CryproTrackerTests" */;
+			buildPhases = (
+				2A8716D1286E0C2200109FA5 /* Sources */,
+				2A8716D2286E0C2200109FA5 /* Frameworks */,
+				2A8716D3286E0C2200109FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A8716D7286E0C2200109FA5 /* PBXTargetDependency */,
+			);
+			name = CryproTrackerTests;
+			productName = CryproTrackerTests;
+			productReference = 2A8716D5286E0C2200109FA5 /* CryproTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A8716DE286E0C2200109FA5 /* CryproTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8716EF286E0C2200109FA5 /* Build configuration list for PBXNativeTarget "CryproTrackerUITests" */;
+			buildPhases = (
+				2A8716DB286E0C2200109FA5 /* Sources */,
+				2A8716DC286E0C2200109FA5 /* Frameworks */,
+				2A8716DD286E0C2200109FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A8716E1286E0C2200109FA5 /* PBXTargetDependency */,
+			);
+			name = CryproTrackerUITests;
+			productName = CryproTrackerUITests;
+			productReference = 2A8716DF286E0C2200109FA5 /* CryproTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A8716B8286E0C1F00109FA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2A8716BF286E0C1F00109FA5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2A8716D4286E0C2200109FA5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2A8716BF286E0C1F00109FA5;
+					};
+					2A8716DE286E0C2200109FA5 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 2A8716BF286E0C1F00109FA5;
+					};
+				};
+			};
+			buildConfigurationList = 2A8716BB286E0C1F00109FA5 /* Build configuration list for PBXProject "CryproTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A8716B7286E0C1F00109FA5;
+			productRefGroup = 2A8716C1286E0C1F00109FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A8716BF286E0C1F00109FA5 /* CryproTracker */,
+				2A8716D4286E0C2200109FA5 /* CryproTrackerTests */,
+				2A8716DE286E0C2200109FA5 /* CryproTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A8716BE286E0C1F00109FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8716CB286E0C2100109FA5 /* Preview Assets.xcassets in Resources */,
+				2A8716C8286E0C2100109FA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8716D3286E0C2200109FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8716DD286E0C2200109FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A8716BC286E0C1F00109FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8716CD286E0C2100109FA5 /* Persistence.swift in Sources */,
+				2AA3C1DA286FB35800058ED1 /* CryptoListView.swift in Sources */,
+				2A843B05286E5994006D12AC /* CryptoResponse.swift in Sources */,
+				2A8716D0286E0C2100109FA5 /* CryproTracker.xcdatamodeld in Sources */,
+				2A843B07286E5B4B006D12AC /* CryptoViewModel.swift in Sources */,
+				2AA3C1D2286F908E00058ED1 /* Color+Extensions.swift in Sources */,
+				2A8716C6286E0C1F00109FA5 /* ContentView.swift in Sources */,
+				2A985857287242C500D730F8 /* Constants.swift in Sources */,
+				2AA3C1D8286FAF8700058ED1 /* PriceView.swift in Sources */,
+				2A0DEDE62870F5A90051F72E /* CustomProgressView.swift in Sources */,
+				2A843B09286E5B57006D12AC /* CryptoListViewModel.swift in Sources */,
+				2AA3C1D6286F950300058ED1 /* CryptoCell.swift in Sources */,
+				2AA3C1D4286F93FC00058ED1 /* NeurographicShadow.swift in Sources */,
+				2A8716FB286E0DD800109FA5 /* CryptoService.swift in Sources */,
+				2A8716C4286E0C1F00109FA5 /* CryproTrackerApp.swift in Sources */,
+				2A0DEDE42870F49B0051F72E /* NetworkMonitor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8716D1286E0C2200109FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8716DA286E0C2200109FA5 /* CryproTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A8716DB286E0C2200109FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8716E6286E0C2200109FA5 /* CryproTrackerUITestsLaunchTests.swift in Sources */,
+				2A8716E4286E0C2200109FA5 /* CryproTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A8716D7286E0C2200109FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A8716BF286E0C1F00109FA5 /* CryproTracker */;
+			targetProxy = 2A8716D6286E0C2200109FA5 /* PBXContainerItemProxy */;
+		};
+		2A8716E1286E0C2200109FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A8716BF286E0C1F00109FA5 /* CryproTracker */;
+			targetProxy = 2A8716E0286E0C2200109FA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A8716E7286E0C2200109FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A8716E8286E0C2200109FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A8716EA286E0C2200109FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryproTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryproTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seyhan.can.mehmet.CryproTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A8716EB286E0C2200109FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryproTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryproTracker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seyhan.can.mehmet.CryproTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A8716ED286E0C2200109FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seyhan.can.mehmet.CryproTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryproTracker.app/CryproTracker";
+			};
+			name = Debug;
+		};
+		2A8716EE286E0C2200109FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seyhan.can.mehmet.CryproTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryproTracker.app/CryproTracker";
+			};
+			name = Release;
+		};
+		2A8716F0286E0C2200109FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seyhan.can.mehmet.CryproTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryproTracker;
+			};
+			name = Debug;
+		};
+		2A8716F1286E0C2200109FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seyhan.can.mehmet.CryproTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryproTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8716BB286E0C1F00109FA5 /* Build configuration list for PBXProject "CryproTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8716E7286E0C2200109FA5 /* Debug */,
+				2A8716E8286E0C2200109FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8716E9286E0C2200109FA5 /* Build configuration list for PBXNativeTarget "CryproTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8716EA286E0C2200109FA5 /* Debug */,
+				2A8716EB286E0C2200109FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8716EC286E0C2200109FA5 /* Build configuration list for PBXNativeTarget "CryproTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8716ED286E0C2200109FA5 /* Debug */,
+				2A8716EE286E0C2200109FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A8716EF286E0C2200109FA5 /* Build configuration list for PBXNativeTarget "CryproTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A8716F0286E0C2200109FA5 /* Debug */,
+				2A8716F1286E0C2200109FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A8716CE286E0C2100109FA5 /* CryproTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A8716CF286E0C2100109FA5 /* CryproTracker.xcdatamodel */,
+			);
+			currentVersion = 2A8716CF286E0C2100109FA5 /* CryproTracker.xcdatamodel */;
+			path = CryproTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A8716B8286E0C1F00109FA5 /* Project object */;
+}
