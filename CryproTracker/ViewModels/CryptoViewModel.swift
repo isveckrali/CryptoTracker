@@ -8,11 +8,13 @@
 import Foundation
 import SwiftUI
 
+
 struct CryptoViewModel: Identifiable {
     var id: UUID {
         return UUID()
     }
-        
+    
+    //DI
     let cryptoResponse: CryptoResponse
 
     var name: String {

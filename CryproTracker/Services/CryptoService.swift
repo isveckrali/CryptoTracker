@@ -14,17 +14,18 @@ final class CryptoService {
     
    // let url = URL(string: "https://api.wazirx.com/sapi/v1/tickers/24hr")
     
-    let symbols = ["btc","eth", "usdt", "xrp","bch","ada","ltc","cro"]
+   // let symbols = ["btc","eth", "usdt", "xrp","bch","ada","ltc","cro"]
     
     lazy var urlComponents: URLComponents = {
         var component = URLComponents()
         component.scheme = "https"
         component.host = "api.wazirx.com"
         component.path = "/sapi/v1/tickers/24hr"
-        component.queryItems = [URLQueryItem(name: "base", value: "USD")]
+      //  component.queryItems = [URLQueryItem(name: "base", value: "USD")]
         return component
     }()
     
+    // parameters can be generics
     func getCryptoList() -> AnyPublisher<[CryptoResponse], Error>? {
         guard let url = urlComponents.url else { return nil }
         
